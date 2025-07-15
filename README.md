@@ -91,6 +91,8 @@ Google Cloud e GitHub (infraestrutura e repositórios)
 
 Bard (antigo nome) e Workspace AI (em versões mais amplas para produtividade)
 
+No link e possível se inscrever e testar a ferramenta : https://codeassist.google/#available-in-your-terminal-favorite-ides-and-platforms
+
 ## 💡 Conclusão
 
 O ecossistema da Google vai além de e-mails e buscas — ele permite uma **experiência inteligente, integrada e fluida**.  
