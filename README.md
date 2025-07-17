@@ -97,4 +97,88 @@ No link e possível se inscrever e testar a ferramenta : https://codeassist.goog
 
 O ecossistema da Google vai além de e-mails e buscas — ele permite uma **experiência inteligente, integrada e fluida**.  
 O uso do Google Assistente como **copiloto de produtividade** ou até **revisor de código** mostra como a IA pode elevar o desempenho de equipes técnicas e operacionais.
-✅ O q
+✅ 
+
+
+
+
+--- Dialog flow --------
+
+<img width="650" height="221" alt="image" src="https://github.com/user-attachments/assets/43396c31-4f64-4ab1-a402-6be12b1039d8" />
+
+
+# 🤖 Dialogflow vs Vertex AI Conversation (Agent Builder)
+
+## 1. Dialogflow
+
+O **Dialogflow** é uma plataforma do Google (antiga API.AI) usada para criar chatbots baseados em intenção, com foco em regras e *NLU* (Natural Language Understanding).
+
+### 🛠️ Principais características:
+- Usa **intents**, **entities** e **contexts** para entender o que o usuário quer.
+- Pode ser integrado com **sites, aplicativos, WhatsApp, Messenger, Google Assistant**, entre outros.
+- Disponível em duas versões:
+  - **Dialogflow ES (Essentials)** → mais simples, baseado em intents.
+  - **Dialogflow CX (Customer Experience)** → mais avançado, com fluxos visuais de conversa e gerenciamento de estado mais complexo.
+
+### ✅ Bom para:
+- Fluxos baseados em regras.
+- Casos com muitas rotas de decisão previsíveis.
+- Integrações com canais e backends estruturados.
+
+---
+
+## 2. Vertex AI Conversation (Agent Builder)
+
+O **Vertex AI Conversation** é a evolução do Dialogflow, com integração direta ao **Vertex AI**, a plataforma de IA generativa do Google.
+
+> Antigamente chamado de *Dialogflow CX com Vertex AI*, agora é voltado para assistentes inteligentes com IA generativa.
+
+### 🚀 O que ele oferece:
+- Criação de agentes com **IA generativa** usando **LLMs** como o **Gemini**.
+- Respostas baseadas em **documentos, APIs ou bases de conhecimento**.
+- Suporte a **funções (tools/functions)** para executar ações personalizadas com base nas intenções detectadas.
+- Integração com:
+  - **Vertex AI Search**
+  - **PaLM/Gemini**
+  - **Embeddings**
+  - **RAG (retrieval-augmented generation)**
+
+### ✅ Bom para:
+- Casos **complexos e não estruturados**.
+- Atendimento que exige **flexibilidade e respostas dinâmicas**.
+- Assistentes que combinam **fluxos com IA generativa**.
+
+---
+
+## 🔍 Comparativo Rápido
+
+| Característica | Dialogflow ES/CX | Vertex AI Conversation |
+|----------------|------------------|-------------------------|
+| Base de funcionamento | Intents, entidades e contextos | LLMs e IA generativa |
+| Ideal para | Chatbots de fluxo fixo | Assistentes mais inteligentes |
+| Customização | Por regras e intents | Por embeddings e modelos de IA |
+| Suporte a IA generativa | Limitado | Completo (Gemini, RAG etc.) |
+| Integração com dados não estruturados | Difícil ou não nativa | Nativo (PDFs, APIs, páginas etc.) |
+
+---
+
+## 📦 Exemplos de uso
+
+- **Dialogflow CX** → Chatbot que ajuda o cidadão a agendar uma consulta médica no site do governo de Goiás.
+
+- **Vertex AI Conversation** → Assistente inteligente que responde perguntas sobre políticas públicas, lendo PDFs ou bases de dados, e que também pode acionar APIs automaticamente se necessário.
+
+## 📦 Avatares
+https://genai.ffeldhaus.demo.altostrat.com/
+
+
+
+
+
+
+---
+
+### 📁 Repositório útil? Deixe uma estrela ⭐ e contribua!
+
+---
+
